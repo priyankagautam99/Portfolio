@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Section</title>
+    <style>
+        body,html{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container{
+            height: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .container1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 30px;
+            
+        }
+        .container2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 30px;
+        }
+        h2{
+            color: white;
+        }
+        .box1,.box2,.box3,.box4,.box5,.box6{
+            width: 300px;
+            height: 300px;
+            background-color: #333;
+            text-align: center;
+            border: 3px solid gold;
+            border-radius: 20px;
+
+        }
+        .box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover{
+            transform: scale(1.05);
+            transition: 0.5s;
+        }
+        #p1{
+            color: gold;
+            font-size: 150%;
+        }
+        #p2{
+            color: white;
+            font-size: 100%;
+        }
+        .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 5px; 
+        margin-top: 10px; 
+        }
+        button{
+            height: 40px;
+            width: 130px;
+            background-color: green;
+            border-radius: 20px;
+            border: 2px solid gold;
+            color: white;
+        }
+        button:hover{
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        img{
+            width: 300px;
+            height: 100px;
+            border-radius: 25px;
+        }
+        img:hover{
+            transform: scale(1.01);
+            transition: 0.5s;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Minor Projects</h2>
+        <div class="container1">
+            <div class="box1">
+                <img src="images/QR Code.png" alt=""><br>
+                <p id="p1">QR CODE Generator</p>
+                <p id="p2">Generates QR codes for user-inputted text using the GoQR.me API</p>
+                <div class="button-container">
+                    <a href="https://priyankagautam99.github.io/QR-Code-Generator/">
+                        <button>Live Demo</button>
+                    </a>
+                    <a href="https://github.com/priyankagautam99/QR-Code-Generator/blob/main/index.html">
+                        <button>View Source</button>
+                    </a>  
+                </div>
+            </div>
+            <div class="box2">
+                <img src="Profile Viewer.png" alt=""><br>
+                <p id="p1">GitHub Profile Explorer</p>
+                <p id="p2">A web app that allows users to enter a GitHub username and view the profile dynamically</p>
+                <div class="button-container">
+                    <a href="https://priyankagautam99.github.io/github-profile-viewer/">
+                        <button>Live Demo</button>
+                    </a>
+                    <a href="https://github.com/priyankagautam99/github-profile-viewer/blob/main/index.html">
+                        <button>View Source</button>
+                    </a>
+                </div>
+            </div>
+            <div class="box3">
+                <img src="RPS.png" alt=""><br>
+                <p id="p1">Rock-Paper-Scissor Game</p>
+                <p id="p2">An interactive game where users play against the computer with real-time results</p>
+                <div class="button-container">
+                    <a href="https://priyankagautam99.github.io/RPS-Game/">
+                        <button>Live Demos</button>
+                    </a>
+                    <a href="https://github.com/priyankagautam99/RPS-Game/blob/main/index.html">
+                        <button>View Source</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="box4">
+                <img src="GuessNo.png" alt=""><br>
+                <p id="p1">Guess the Number Game</p>
+                <p id="p2">A game where users guess randomly generated number & receive instant feedback</p>
+                <div class="button-container">
+                    <a href="https://priyankagautam99.github.io/Number-Guessing-Game/">
+                        <button>Live Demo</button>
+                    </a>
+                    <a href="https://github.com/priyankagautam99/Number-Guessing-Game/blob/main/index.html">
+                        <button>View Source</button>
+                    </a>
+                </div>
+            </div>
+            <div class="box5">
+                <img src="CharCount.png" alt=""><br>
+                <p id="p1">Real-Time Character Counter</p>
+                <p id="p2">Counts and displays the number of characters as users type in real-time</p>
+                <div class="button-container">
+                    <a href="https://priyankagautam99.github.io/CharactersCountProject/">
+                        <button>Live Demo</button>
+                    </a>
+                    <a href="https://github.com/priyankagautam99/CharactersCountProject/blob/main/index.html">
+                        <button>View Source</button>
+                    </a>
+                </div>
+            </div>
+            <div class="box6">
+                <img src="Calculator.png" alt=""><br>
+                <p id="p1">Responsive Calculator</p>
+                <p id="p2">A simple web-based calculator for performing basic arithmetic operations</p>
+                <div class="button-container">
+                    <a href="https://priyankagautam99.github.io/Basic-Calculator/">
+                        <button>Live Demo</button>
+                    </a>
+                    <a href="https://github.com/priyankagautam99/Basic-Calculator/blob/main/index.html">
+                        <button>View Source</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
